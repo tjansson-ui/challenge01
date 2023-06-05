@@ -1,13 +1,31 @@
+/* Clear Browser defaults for padding and margin*/
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* General settings for the page*/
 body {
     background-color: #d9dcd6;
 }
 
+p {
+    font-size: 16px;
+}
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+
+/* Top Information for Webpage*/
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -24,6 +42,7 @@ h1 {
     color: #d9dcd6;
 }
 
+    /* navigation bar elements*/
 nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -45,10 +64,7 @@ a {
     text-decoration: none;
 }
 
-p {
-    font-size: 16px;
-}
-
+/* Key Webpage IMG*/
 .hero {
     height: 800px;
     width: 100%;
@@ -58,16 +74,8 @@ p {
     background-position: center;
 }
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
 
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
+/* Content for page*/
 main {
     width: 75%;
     display: inline-block;
